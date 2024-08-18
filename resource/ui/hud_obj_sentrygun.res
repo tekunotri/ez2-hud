@@ -247,7 +247,7 @@
 			"textAlignment"	"Left"
 			"dulltext"		"0"
 			"brighttext"	"0"	
-			"fgcolor_override"		"255 255 0 255"
+			"fgcolor_override"		"255 255 255 255"
 		}
 		
 		"BuildingPanel"

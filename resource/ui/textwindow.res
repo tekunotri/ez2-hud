@@ -254,7 +254,7 @@
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
 			"image"			"glyph_multiplayer"
-			"drawcolor"	"255 177 0 255"
+			"drawcolor"	"200 200 200 255"
 			"scaleImage"	"1"
 		}	
 	}

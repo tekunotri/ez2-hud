@@ -20,7 +20,7 @@
 		"teambg_3"		""
 		"paintbackground"		"1"
 		"paintbackgroundtype"		"2"
-		"bgcolor_override"		"255 255 0 255"
+		"bgcolor_override"		"255 255 255 255"
 	}
 	"TargetIDBG_Spec_Blue"
 	{

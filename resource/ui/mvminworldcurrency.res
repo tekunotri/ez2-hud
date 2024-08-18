@@ -47,7 +47,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
 		"font"			"Default"
-		"fgcolor_override"		"255 220 0 100"
+		"fgcolor_override"		"255 255 255 100"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"4"

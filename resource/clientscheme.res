@@ -216,25 +216,25 @@ Scheme
 		"BGBrightSolid"				"160 160 160 255"
 		"BGDark"				" 0   0   0  128"
 		
-		"HL2Yellow"				"255 220 0 100"
-		"HL2YellowSolid"		"181 166 72 100"
-		"HL2YellowBright"		"255 220 0 255"
+		"HL2Yellow"				"255 255 255 100"
+		"HL2YellowSolid"		"200 200 200 100"
+		"HL2YellowBright"		"255 255 255 255"
 		"HL2DamagedFg"			"180 0 0 230"
 		
 		"HL2BG"					"0 0 0 76"
 		"HL2DamagedBG"			"180 0 0 200"
-		"HL2BrightFg"			"255 220 0 255"
+		"HL2BrightFg"			"255 255 255 255"
 		"HL2BrightDamagedFg"	"255 0 0 255"
 		
 		"HL2Red"			"255 64 64 255"
 		"HL2Blue"			"153 204 255 255"
 		
 		// HL1-style HUD colors
-		"Yellowish"			"255 160 0 255"
-		"Normal"			"255 208 64 255"
+		"Yellowish"			"200 200 200 255"
+		"Normal"			"200 200 200 255"
 		"Caution"			"255 48 0 255"
 		
-		"PanelText"			"255 177 0 255"
+		"PanelText"			"200 200 200 255"
 		"PanelTextDisabled"	"126 126 126 255"
 	}
 
@@ -545,7 +545,51 @@ Scheme
 				"additive"	"1"
 			}
 		}
-		
+		DefaultFrak
+		{
+			"1"
+			{
+				"name"		"Frak"
+				"tall"		"9"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Frak"
+				"tall"		"12"
+				"weight"	"700"
+				"antialias" "1"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Frak"
+				"tall"		"14"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"768 1023"
+			}
+			"4"
+			{
+				"name"		"Frak"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"1024 1199"
+				"additive"	"0"
+			}
+			"5"
+			{
+				"name"		"Frak"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias" "1"
+				"yres"	"1200 10000"
+				"additive"	"1"
+			}
+		}
 
 		
 		"DefaultSmall"
@@ -601,6 +645,60 @@ Scheme
 				"weight"		"0"
 			}
 		}
+		"DefaultSmallFrak"
+		{
+			"1"
+			{
+				"name"		"Frak"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Frak"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Frak"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Frak"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Frak"
+				"tall"		"24"
+				"weight"	"0"
+				"range"		"0x0000 0x017F"
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Arial"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+
 		"DefaultVerySmall"
 		{
 			"1"
@@ -661,7 +759,128 @@ Scheme
 				"weight"		"0"
 			}
 		}
+		"DefaultVerySmallFrak"
+		{
+			"1"
+			{
+				"name"		"Frak"
+				"tall"		"12"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"480 599"
+			}
+			"2"
+			{
+				"name"		"Frak"
+				"tall"		"13"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"600 767"
+			}
+			"3"
+			{
+				"name"		"Frak"
+				"tall"		"14"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Frak"
+				"tall"		"20"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Frak"
+				"tall"		"24"
+				"weight"	"0"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Frak"
+				"tall"		"12"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"11"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"0"
+			}
+		}
+
 		DefaultLarge
+		{
+			"1"
+			{
+				"name"		"Frak"
+				"tall"		"18"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"480 599"
+			}
+			"2"
+			{
+				"name"		"Frak"
+				"tall"		"21"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"600 767"
+			}
+			"3"
+			{
+				"name"		"Frak"
+				"tall"		"22"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"768 1023"
+				"antialias"	"1"
+			}
+			"4"
+			{
+				"name"		"Frak"
+				"tall"		"28"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"		"1024 1199"
+				"antialias"	"1"
+			}
+			"5"
+			{
+				"name"		"Frak"
+				"tall"		"30"
+				"weight"	"900"
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
+				"yres"	"1200 6000"
+				"antialias"	"1"
+			}
+			"6"
+			{
+				"name"		"Frak"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"900"
+			}
+			"7"
+			{
+				"name"		"Arial"
+				"tall"		"20"
+				"range" 		"0x0000 0x00FF"
+				"weight"		"800"
+			}
+		}
+		DefaultLargeFrak
 		{
 			"1"
 			{
@@ -708,7 +927,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Frak"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
@@ -739,7 +958,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Frak"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -1688,7 +1907,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana bold"
+				"name"		"Verdana bold"
 				"tall"		"12"
 				"weight"	"0"
 				"antialias"	"1"
@@ -1710,7 +1929,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana bold"
+				"name"		"Frak"
 				"tall"		"28"
 				"weight"	"0"
 				"antialias"	"1"
@@ -1733,7 +1952,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana bold"
+				"name"		"Frak"
 				"tall"		"45"
 				"weight"	"1000"
 				"antialias" "1"
@@ -3048,7 +3267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HL2"
+				"name"		"Frak"
 				"tall"		"32"
 				"weight"	"0"
 				"antialias"	"1"
@@ -3058,7 +3277,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HL2"
+				"name"		"Frak"
 				"tall"		"32"
 				"weight"	"0"
 				"antialias" "1"
@@ -3071,7 +3290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HL2"
+				"name"		"Frak"
 				"tall"		"16"	[$WIN32]
 				"weight"	"1000"
 				"additive"	"1"
@@ -3083,7 +3302,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"HL2"
+				"name"		"Frak"
 				"tall"		"32"
 				"weight"	"0"
 				"blur"		"4"
@@ -3110,7 +3329,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"  "HL2"
+				"name"  "Verdana"
 				"tall"			"32"
 				"tall_hidef"	"46"
 				"weight" "0"
@@ -6596,8 +6815,8 @@ Scheme
 		}
 		"8"
 		{
-			"font" "resource/font/HL2.ttf"
-			"name" "HL2"
+			"font" "resource/font/frak.ttf"
+			"name" "Frak"
 		}
 	}
 }

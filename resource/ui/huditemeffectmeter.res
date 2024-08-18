@@ -42,7 +42,7 @@
 		"textAlignment"			"south"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"DisabledFgColor2_override"	"HL2Yellow"
 	}
 	
@@ -80,7 +80,7 @@
 		"textAlignment"			"south"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"paintbackground"		"0"
 		"paintbackgroundtype"		"2"
 		"RoundedCorners"		"2"
@@ -92,7 +92,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"xpos"					"r212"
 		"ypos"					"9"
 		"zpos"					"3"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"Refract"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"xpos"					"r206"
 		"ypos"					"9"
 		"zpos"					"4"

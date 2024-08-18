@@ -4,5 +4,5 @@
 //										//
 //////////////////////////////////////////
 
-//#base "../resource/custom/crosshair_off.res"
-#base "../resource/custom/crosshair_on.res"
+#base "../resource/custom/crosshair_off.res"
+//#base "../resource/custom/crosshair_on.res"

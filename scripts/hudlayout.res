@@ -225,7 +225,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"xpos"		"16"
-		"ypos"		"r78" //rs1-54
+		"ypos"		"r102" //rs1-54
 		"wide"		"102"
 		"tall"		"24"
 		"alpha"		"255"

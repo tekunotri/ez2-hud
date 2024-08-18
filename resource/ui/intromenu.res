@@ -248,8 +248,8 @@
 		"tabPosition"	"0"
 		"labeltext"		""
 		"paintbackground"	"0"
-		"image_drawcolor"	"255 177 0 255"
-		"image_armedcolor"	"255 177 0 255"
+		"image_drawcolor"	"200 200 200 255"
+		"image_armedcolor"	"200 200 200 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"

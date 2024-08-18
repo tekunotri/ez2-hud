@@ -74,8 +74,8 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
-		"fgcolor_override"				"255 220 0 100"
+		"font"					"DefaultFrak"
+		"fgcolor_override"				"255 255 255 100"
 	}
 	"ItemEffectMeter"
 	{	
@@ -107,8 +107,8 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
-		"fgcolor_override"		"255 220 0 100"
+		"font"					"DefaultFrak"
+		"fgcolor_override"		"255 255 255 100"
 		"use_proportional_insets"	"1"
 		"textinsetx"	"50"
 		"textinsety"	"-1"

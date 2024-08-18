@@ -1,4 +1,4 @@
-"Resource/UI/HudAmmoWeapons.res"
+"Resource/UI/HudmoWeapons.res"
 {
 	"HudWeaponAmmoBG"
 	{
@@ -153,7 +153,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoLabel"
-		"font"			"Default"
+		"font"			"DefaultFrak"
 		"fgcolor"		"HL2Yellow"
 		"xpos"			"rs1-16"
 		"ypos"			"r48"

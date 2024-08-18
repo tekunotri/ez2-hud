@@ -21,8 +21,8 @@
 		
 		"TeamBlue"		"TeamBlue"
 		"TeamRed"		"255 64 64 255"
-		"IconColor"		"255 96 50 200"
-		"LocalPlayerColor"	"255 96 50 200"
+		"IconColor"		"255 255 255 200"
+		"LocalPlayerColor"	"255 255 255 200"
 
 		"BaseBackgroundColor"	"BGDark"		[$WIN32]
 		"LocalBackgroundColor"	"BorderBright"	[$WIN32]

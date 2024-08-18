@@ -15,7 +15,7 @@
 
 	// give it a white outline
 	$outline 1
-	$outlinecolor "[1.0 0.45 0.0]"
+	$outlinecolor "[ 0.73 0.73 0.73 ]"
 	$outlinestart0 0.0
 	$outlinestart1 0.1
 	$outlineend0 0.6
