@@ -58,7 +58,7 @@
 		"textAlignment"		"south-west"
 		"dulltext"			"0"
 		"brighttext"		"0"
-		"font"				"Default"
+		"font"				"DefaultFrak"
 		"textinsetx"	"8"
 		"textinsety"	"0"
 		"use_proportional_insets"	"1"
@@ -69,7 +69,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"

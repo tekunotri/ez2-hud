@@ -43,7 +43,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel2"
-		"font"			"Default"
+		"font"			"DefaultFrak"
 		"fgcolor"		"HL2Yellow"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -63,7 +63,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"

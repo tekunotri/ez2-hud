@@ -19,7 +19,7 @@
 		"textAlignment"			"south"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"fgcolor"				"Blank"
 		"paintbackground"	"0"
 		"paintbackgroundtype"	"2"
@@ -46,7 +46,7 @@
 	{	
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"xpos"					"6"
 		"ypos"					"6"
 		"zpos"					"3"

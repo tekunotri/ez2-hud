@@ -77,7 +77,7 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"fgcolor_override"		"HL2Yellow"
 	}
 
@@ -85,7 +85,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"xpos"					"25"
 		"ypos"					"23"
 		"zpos"					"2"

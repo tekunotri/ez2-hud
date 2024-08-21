@@ -54,7 +54,7 @@
 		"textAlignment"			"south-west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"paintbackground"		"0"
 		"paintbackgroundtype"		"2"
 		"bgcolor_override"		"HL2BG"
@@ -68,7 +68,7 @@
 	{	
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
+		"font"					"DefaultFrak"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"0"
